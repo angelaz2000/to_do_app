@@ -56,38 +56,3 @@ var new_homework_task_request = new XMLHttpRequest()
 new_homework_task_request.open("POST ", "http://todo.webtechnologybootcamp.com/tasks/")
 new_homework_task_request.setRequestHeader("Content-Type", "application/json")
 })
-// var tasks_homework = [{
-//   title : "English Homework",
-//   done : true,
-//   person : "Angela Zheng"
-// }, {
-//   title : "Math Homework",
-//   done : false,
-//   person : "Angela Zheng"
-// }, {
-//   title : "Science Homework",
-//   done : true,
-//   person : "Angela Zheng"
-// }, {
-//   title : "Social Studies Homework",
-//   done : true,
-//   person : "Angela Zheng"
-// }]
-
-// var tasks_chore = [{
-//   title : "Wash Dishes",
-//   done : true,
-//   person : "Angela Zheng"
-// }, {
-//   title : "Throw out Trash",
-//   done : false,
-//   person : "Tiffany Zheng"
-// }, {
-//   title : "Pick up Alice",
-//   done : true,
-//   Person : "Angela Zheng"
-// }, {
-//   title : "Sweep Floor",
-//   done : false,
-//   person : "Tiffany"
-// }]
