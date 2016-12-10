@@ -52,7 +52,9 @@ add_homework_button.addEventListener("click", function() {
     done: false,
     type:"Homework"
   }, "Homework")
-  
+var new_homework_task_request = new XMLHttpRequest()
+new_homework_task_request.open("POST ", "http://todo.webtechnologybootcamp.com/tasks/")
+new_homework_task_request.setRequestHeader("Content-Type", "application/json")
 })
 // var tasks_homework = [{
 //   title : "English Homework",
